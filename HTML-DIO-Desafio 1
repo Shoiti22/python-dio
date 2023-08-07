@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Mudei o titulo</title>
+    </head>
+    <body>
+        <h1 id="inicio">ESTRUTURA DE UM DOCUMENTO HTML</h1>
+        <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags <html>, <head> e <body> e a instrução <!DOCTYPE>. Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um "modo de compatibilidade", vamos entender melhor sobre isto logo mais. Abaixo, vamos conhecer em detalhes cada uma das tags estruturais obrigatórias:</p>
+        <hr>
+        <h2>índice</h2>
+        <ul>
+            <li><a href="#a-tag-html">A Tag HTML</a></li>
+            <li><a href="#a-tag-body">A tag Body</a></li>
+            <li><a href="#a-instrução-doctype"> instrução DOCTYPE</a></li>
+        </ul>
+
+        <h2 id="a-tag-html">A Tag HTML </h2>
+        <p>Na estrutura do nosso documento, antes de começar a colocar o conteúdo, inserimos uma tag <html>. Dentro dessa tag, é necessário declarar outras duas tags: <head> e <body>. Essas duas tags são "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe", que é <html>.</p>
+        <h2 id="a-tag-body">A tag Body </h2>
+        <p>A tag body contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, todo o conteúdo visível do site. É necessário que o body tenha ao menos um elemento "filho", ou seja, uma ou mais tags HTML dentro dele.</p>
+        <h2 id="a-instrução-doctype">A instrução DOCTYPE</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>O DOCTYPE não é uma tag HTML, mas uma instrução especial. Ela indica para o navegador qual versão do HTML deve ser utilizada para exibir a página. Quando não colocamos essa instrução a página é exibida numa espécie de "modo de compatibilidade" na qual algumas tags e estilizações não funcionam 100% corretamente. Principalmente as tags e estilizações mais atuais (lançadas na versão 5 do HTML). Inclusive é possível ver a diferença na folha de estilos padrão que o navegador usa quando não colocamos essa instrução.</p>
+        <ul>
+            <li>
+                <a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=1560195067&hsa_grp=63243218150&hsa_ad=473952452360&hsa_src=g&hsa_tgt=aud-456779235794:dsa-19959388920&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPSZ9c9gSNtA-6iJKluevEsb5fIA7mCovnBEWdbVALN-dwn4kDIm1owaAukZEALw_wcB" target="_blank">HTML.me</a>
+            </li>
+        </ul>
+    </body>
+</html>
