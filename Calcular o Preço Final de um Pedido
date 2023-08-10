@@ -1,0 +1,11 @@
+valorHamburguer = float(input())
+quantidadeHamburguer = int(input())
+valorBebida = float(input())
+quantidadeBebida = int(input())
+valorPago = float(input())
+
+Valor_total_dos_hambúrgueres = valorHamburguer * quantidadeHamburguer
+Valor_total_da_bebida = valorBebida * quantidadeBebida
+Preço_total_do_pedido = Valor_total_da_bebida + Valor_total_dos_hambúrgueres
+Troco_necessário = valorPago - Preço_total_do_pedido
+print(f'O preço final do pedido é R$ {Preço_total_do_pedido:.2f}. Seu troco é R$ {Troco_necessário:.2f}.')
