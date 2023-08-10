@@ -1,0 +1,4 @@
+nomeRestaurante = input('')
+tempoEstimadoEntrega = int(input(''))
+mensagem = f"O Restaurante {nomeRestaurante} entrega em {tempoEstimadoEntrega} minutos"
+print(mensagem)
