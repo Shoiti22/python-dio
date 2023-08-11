@@ -3,8 +3,11 @@ numPedidos = int(input())
 for i in range(1, numPedidos + 1):
     prato = input()
     calorias = int(input())
-    ehVegano = input() == ''
+    ehVegano = False
     
-    tipoVegano = '(Não Vegano)' if ehVegano else '(Vegano)'
+    if input() == 's':
+      tipoVegano = 'Vegano'
+    else:
+      tipoVegano = 'Não-Vegano'
     
     print(f'Pedido {i}: {prato} {tipoVegano} - {calorias} calorias')
