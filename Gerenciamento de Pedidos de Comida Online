@@ -1,0 +1,28 @@
+def calcular_total_pedidos(pedidos, cupom):
+    total = 0
+    for pedido in pedidos:
+        nome, valor = pedido
+        total += valor
+    
+    if cupom == "10%":
+        desconto = total * 0.10
+    elif cupom == "20%":
+        desconto = total * 0.20
+    else:
+        desconto = 0
+    
+    valor_com_desconto = total - desconto
+    return valor_com_desconto
+
+# Leitura da entrada
+n = int(input())
+pedidos = []
+for _ in range(n):
+    nome, valor = input().split()
+    pedidos.append((nome, float(valor)))
+
+cupom = input()
+
+# Cálculo e exibição do valor total com desconto
+valor_total = calcular_total_pedidos(pedidos, cupom)
+print(f"Valor total: {valor_total:.2f}")
