@@ -1,0 +1,14 @@
+def verificar_brinde(valorPedido):
+    if valorPedido >= 50:
+        mensagem = "Parabens, você ganhou uma sobremesa gratis!"
+    else:
+        mensagem = "Que pena, você nao ganhou nenhum brinde especial."
+    
+    return mensagem
+
+# Solicitar o valor do pedido ao usuário
+valorPedido = float(input(""))
+
+# Verificar e imprimir o resultado
+mensagem = verificar_brinde(valorPedido)
+print(mensagem)
